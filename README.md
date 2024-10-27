@@ -1,9 +1,18 @@
-# FunWithpwsh
-A collection of useful powershell commands and scripts that I hope to build into a package.
+## FunWithpwsh
 
-Things I want this to do: 
+Module Focused on easy to use commands that will help with general windows administration. 
 
-- Reset users password in AD to a specified default, and force reset on next login. 
-- Get last users logon date when given PC number input 
-- Run an sfc scan remotely (and other utilities)
-- Easily execute remoting over SSH
+## Options
+
+- Reset user password
+  - Option to force password on reset (default)
+- Generate list of users to export w/choice of format
+  - json
+  - csv
+  - tsv
+  - txt
+  - markdown (optional dependency required)
+- Reset internal time to match domain controller
+- Notify users of password change by email (graph API access needed)
+- etc.
+
